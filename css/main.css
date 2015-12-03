@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "canterBold";
+    src: url("canterBold.otf");
+}
+
+@font-face {
+    font-family: "canterLight";
+    src: url("canterLight.otf");
+}
+
+@font-face {
+    font-family: "titaniaRegular";
+    src: url("titaniaRegular.ttf");
+}
+
+body {
+    background: #FAF7F0;
+    /*background-image: url(../img/patternBkgd.png);*/
+    font-family: "canterLight";
+}
+
+html {
+    box-sizing: border-box;
+    color: #363636;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.visuallyHidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding-bottom: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.group::after {
+    clear: both;
+    content: '';
+    display: block;
+    }
+
+header {
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+#banner {
+    margin-top: 15%;
+}
+
+#banner img {
+    height: auto;
+    width: 100%;
+}
+
+footer {
+    background: #f1f1f1; /*#3d4868;*/
+    margin-top: 10%;
+    padding: 0% 10% 0 10%;
+    text-align: center;
+}
+
+.companyInfo {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 200px;
+}
+
+.companyInfo + .companyInfo {
+    border-left: 0px solid #FAF7F0;
+}
+
+.companyInfoFont3 {
+    list-style: none;
+    padding-left: 0;
+}
+
+.companyInfoFont1 {
+    margin-bottom: -.5em;
+}
+
+@media all and (min-width: 700px) {
+    footer {
+        text-align: right;
+        margin-top: 5%;
+    }
+
+    .companyInfo {
+        padding: 60px 0 60px 0;
+        text-align: right;
+    }
+
+}
