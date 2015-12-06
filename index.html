@@ -14,38 +14,55 @@
 
 <!------------------ ** jQuery Animsition.css ** ------------>
     <link rel="stylesheet" href="css/animsition.min.css">
-    <!------------------ ** jQuery Animsition.css ** ------------>
+<!------------------ ** jQuery Animsition.css ** ------------>
+
+<!------------------ ** jQuery Drawer.css ** ------------>
+<link rel="stylesheet" href="css/drawer.css">
+<!------------------ ** jQuery Drawer.css ** ------------>
+
+<!---- <link href="css/demo.css" rel="stylesheet" type="text/css"> ------>
+
 
 </head>
+
 <body class="animsition">
-    <nav></nav>
-    <header>
+
+<header>
+    <nav role="banner" class="drawer drawer--left">
+        <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+        </button>
+        <div class="drawer-nav" role="navigation">
+            <ul class="drawer-menu">
+                <li><a class="drawer-brand" href="#pageFooter">pageFooter</a></li>
+                <li><a class="drawer-menu-item" href="#">Nav1</a></li>
+                <li><a class="drawer-menu-item" href="#">Nav2</a></li>
+            </ul>
+        </div>
+    </nav>
         <h1 class="visuallyHidden">Bluth's Original Frozen Banana</h1>
         <div id="banner" class="siteContainer">
             <img src="img/bluthsFrontLogo.png" alt="">
         </div>
-        <!---
-        <div id="phrase1">
-            <p><span class="quote">"</span>Sweet and Natural<span class="quote">"</span></p>
-        </div>
-        ------>
     </header>
 
-    <main>
-        <section id="section1" class="group">
+
+    <main role="main">
+        <section id="section1" class="group section">
             <h2 class="visuallyHidden">Company Information</h2>
+                <article class="divider1">
+                    <p class="phrase2"><span class="quote">"</span>There's Always Money in the Banana Stand!<span class="quote">"</span></p>
+                </article>
                 <div class="divider1">
                     <img src="img/divider.png" alt="">
                 </div>
-                <article class="divider1">
-                    <p class="phrase2"><span class="quote">"</span>There's Always Money in the Banana Stand!<span class="quote">"</span></p>
-                 </article>
 
         </section>
 
     </main>
 
-    <footer>
+    <footer id="pageFooter">
         <article class="companyInfo">
             <h3 class="companyInfoFont1">Location</h3>
             <address>
@@ -71,9 +88,12 @@
                     <li>Sunday: 11am - 6pm</li>
                 </ul>
         </article>
+    </footer>
 
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/animsition.min.js"></script>
+    <script src="js/drawer.min.js"></script>
+    <script src="js/iscroll.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

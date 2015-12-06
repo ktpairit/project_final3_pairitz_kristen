@@ -21,6 +21,7 @@ body {
 
 html {
     background-color: #FAF7F0;
+    /* background-image: url(../img/bkgdStripes.png); */
     box-sizing: border-box;
     color: #363636;
     font-size: 1.5em;
@@ -53,6 +54,12 @@ html {
 nav {
     background: #3d4868;
     padding: 15% 0 0 0;
+    position: relative;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
 }
 
 header {
@@ -96,7 +103,6 @@ span.quote {
 
 #section1 {
     background-color: #3d4868;
-    height: 379px; /* necessary due to plaid image height; w/out height the img hangs over edge of div and looks bad when resizing*/
     display: inline-block;
     margin: auto;
     position: relative;
@@ -104,13 +110,13 @@ span.quote {
 }
 
 .divider1 img {
-    position: absolute;
+    position: relative;
 }
 
 .divider1 p {
-    position: relative;
+    position: absolute;
     text-align: center;
-    z-index: 100;
+    z-index: 1;
 }
 
 /************************ END: First blue divider in coding *****************************/

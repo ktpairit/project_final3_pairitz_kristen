@@ -1,3 +1,4 @@
+//-------------------------- jQuery Animsition ---------------------
 $(document).ready(function() {
   $(".animsition").animsition({
     inClass: 'fade-in',
@@ -22,3 +23,10 @@ $(document).ready(function() {
     transition: function(url){ window.location.href = url; }
   });
 });
+
+
+//-------------------------- jQuery Drawer ---------------------
+$(document).ready(function() {
+    $('.drawer').drawer();
+});
+
