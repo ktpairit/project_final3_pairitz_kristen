@@ -20,6 +20,7 @@ body {
 }
 
 html {
+    background-color: #FAF7F0;
     box-sizing: border-box;
     color: #363636;
     font-size: 1.5em;
@@ -49,23 +50,75 @@ html {
     display: block;
     }
 
+nav {
+    background: #3d4868;
+    padding: 15% 0 0 0;
+}
+
 header {
+    /*background-image: url(../img/bkgd.png);*/
     margin: auto;
-    max-width: 900px;
+    max-width: 100%;
     text-align: center;
 }
 
+/*#phrase1 {
+    color: #3d4868;
+    font-family: "canterBold";
+    font-size: 1.5em;
+    margin: auto;
+    width: 60%;
+}*/
+
+.phrase2 {
+    color: #FAF7F0;
+    font-family: "canterBold";
+    font-size: 3em;
+    width: ;
+}
+
+span.quote {
+    color: #efad20;
+    font-family: "titaniaRegular";
+    font-size: 1em;
+}
+
 #banner {
-    margin-top: 15%;
+    padding-top: .5%;
 }
 
 #banner img {
     height: auto;
+    max-width: 100%;
+}
+
+/************************ BEGINNING: First blue divider in coding *****************************/
+
+#section1 {
+    background-color: #3d4868;
+    height: 379px; /* necessary due to plaid image height; w/out height the img hangs over edge of div and looks bad when resizing*/
+    display: inline-block;
+    margin: auto;
+    position: relative;
     width: 100%;
 }
 
+.divider1 img {
+    position: absolute;
+}
+
+.divider1 p {
+    position: relative;
+    text-align: center;
+    z-index: 100;
+}
+
+/************************ END: First blue divider in coding *****************************/
+
 footer {
-    background: #f1f1f1; /*#3d4868;*/
+    background: #3d4868;
+    color: #FAF7F0;
+    font-family: "canterLight";
     margin-top: 10%;
     padding: 0% 10% 0 10%;
     text-align: center;
@@ -91,15 +144,51 @@ footer {
     margin-bottom: -.5em;
 }
 
-@media all and (min-width: 700px) {
-    footer {
-        text-align: right;
-        margin-top: 5%;
+@media all and (min-width: 800px) {
+footer {
+    text-align: right;
+    margin-top: 5%;
     }
+.companyInfo {
+    padding: 60px 0 60px 0;
+    text-align: right;
+    }
+#banner img {
+    max-width: 60%;
+}
+nav {
+    padding: 6% 0 0 0;
+}
+body {
+    border: 1px solid #FFF;
+    margin: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    max-width: 1200px;
 
-    .companyInfo {
-        padding: 60px 0 60px 0;
-        text-align: right;
-    }
+    -moz-box-shadow:    0 0 2px 1px #D1D1D1;
+    -webkit-box-shadow: 0 0 2px 1px #D1D1D1;
+    box-shadow:         0 0 2px 1px #D1D1D1;
+}
+/************************ BEGINNING: First blue divider in coding *****************************/
+#section1 {
+    background-color: #3d4868;
+    display: inline-block;
+    width: 100%;
+}
+.divider1 img {
+    float: left;
+    height: auto;
+    max-width: 100%;
+}
+.divider1 article {
+    float: right;
+}
+.divider1 p {
+    padding-left: 40%;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+/************************ BEGINNING: First blue divider in coding *****************************/
 
 }
