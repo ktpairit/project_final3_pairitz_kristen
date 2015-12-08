@@ -57,13 +57,16 @@ nav {
     position: relative;
 }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
+#award1 {
+    height: auto;
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    width: 40%;
 }
 
 header {
-    /*background-image: url(../img/bkgd.png);*/
+    background-image: url(../img/bkgd.png);
     margin: auto;
     max-width: 100%;
     text-align: center;
@@ -80,8 +83,7 @@ header {
 .phrase2 {
     color: #FAF7F0;
     font-family: "canterBold";
-    font-size: 3em;
-    width: ;
+    font-size: 2.6em;
 }
 
 span.quote {
@@ -182,6 +184,9 @@ body {
     display: inline-block;
     width: 100%;
 }
+.phrase2 {
+    font-size: 3.2em;
+}
 .divider1 img {
     float: left;
     height: auto;
@@ -191,10 +196,16 @@ body {
     float: right;
 }
 .divider1 p {
-    padding-left: 40%;
-    padding-right: 10%;
-    padding-top: 3%;
+    padding-left: 30%;
+    padding-right: 8%;
+    padding-top: 1.5%;
 }
 /************************ BEGINNING: First blue divider in coding *****************************/
+#award1 {
+    right: 2%;
+    top: 8%;
+    width: 19%;
+}
+
 
 }
