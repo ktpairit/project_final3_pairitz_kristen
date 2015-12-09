@@ -1,3 +1,8 @@
+/* font-family: 'Yellowtail', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Satisfy', cursive;
+*/
+
 @font-face {
     font-family: "canterBold";
     src: url("canterBold.otf");
@@ -61,8 +66,8 @@ nav {
     height: auto;
     position: absolute;
     right: 2%;
-    top: 1%;
-    width: 40%;
+    top: 7%;
+    width: 22%;
 }
 
 header {
@@ -121,7 +126,16 @@ span.quote {
     z-index: 1;
 }
 
-/************************ END: First blue divider in coding *****************************/
+/************************************** Crazy Banana Menu *********************************************/
+
+span.the {
+    color: #6b75ee;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Satisfy', cursive; */
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 1em;
+}
+
 
 footer {
     background: #3d4868;
@@ -204,7 +218,7 @@ body {
 #award1 {
     right: 2%;
     top: 8%;
-    width: 19%;
+    width: 20%;
 }
 
 
