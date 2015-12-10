@@ -36,9 +36,11 @@
         </button>
         <div class="drawer-nav" role="navigation">
             <ul class="drawer-menu">
-                <li><a class="drawer-brand" href="#">Bluth's</a></li>
-                <li><a class="drawer-menu-item" href="#menu">Menu</a></li>
-                <li><a class="drawer-menu-item" href="#">Nav2</a></li>
+                <li><a class="drawer-brand" id="navTitle" href="#">Bluth's</a></li>
+                <li><a class="drawer-menu-item" class="navItem" href="#menu">Desserts</a></li>
+                <li><a class="drawer-menu-item" class="navItem" href="#m1">Entrees</a></li>
+                <li><a class="drawer-menu-item" class="navItem" href="#m2">Appetizers</a></li>
+                <li><a class="drawer-menu-item" class="navItem" href="#m3">Beverages</a></li>
             </ul>
         </div>
     </nav>
@@ -62,27 +64,58 @@
                     <img src="img/divider.png" alt="">
                 </div>
         </section>
-        <section id="section2" class="">
+        <section id="section2" class="group">
             <h2 id="menu">Bluth's Banana Stand Menu</h2>
-            <article id="leftMenu">
-            </article>
-            <article id="rightMenu">
-                <div id="topTwo">
-                    <h4 class="bananaName"><span class="the">The</span> Original Frozen Banana</h4>
-                    <p class="description">Frozen Banana dipped in hot fudge and covered with fresh nuts</p>
-                    <h4 class="bananaName"><span class="the">The</span> On the Go-Go Banana</h4>
-                    <p class="description">Frozen Banana in a cup of sizzling hot fudge</p>
-                </div>
-                <div id="bottomTwo">
-                    <h4 class="bananaName"><span class="the">The</span> Giddy-Girly Banana</h4>
-                    <p class="description">Frozen Banana dipped in hot fudge and covered with our heartcandy</p>
-                    <h4 class="bananaName"><span class="the">The</span> George Daddy</h4>
-                    <p class="description">Frozen dipped Bananas sandwhiched between chocolate grahams</p>
-                </div>
+                <article id="mainMenu">
+                    <div id="topTwo">
+                        <h4 class="bananaName"><span class="the">The</span> Original Frozen Banana</h4>
+                        <p class="description">Frozen Banana dipped in hot fudge and covered with fresh nuts <span class="cost"> .......$1.00</span></p>
+                        <h4 class="bananaName"><span class="the">The</span> On the Go-Go Banana</h4>
+                        <p class="description">Frozen Banana in a cup of sizzling hot fudge <span class="cost"> .......$1.75</span></p>
+                    </div>
+                    <div id="bottomTwo">
+                        <h4 class="bananaName"><span class="the">The</span> Giddy-Girly Banana</h4>
+                        <p class="description">Frozen Banana dipped in hot fudge and covered with our heartcandy <span class="cost"> .......$1.55</span></p>
+                        <h4 class="bananaName"><span class="the">The</span> George Daddy</h4>
+                        <p class="description">Frozen dipped Bananas sandwhiched between chocolate grahams <span class="cost"> .......$1.25</span></p>
+                    </div>
+                </article>
 
-            </article>
+                <article id="bottomMenu">
+                    <article id="m1" class="meals">
+                        <h3 class="meals1">Entrees</h3>
+                        <h4 class="meals2">Poisoned Muffins</h4>
+                        <p class="description1">Creamy bananas with the spicy heat of green curry paste $5.26</p>
+                        <h4 class="meals2">Mayonegg</h4>
+                        <p class="description1">One boiled egg preceded by a packet of mayonnaise $4.29</p>
+                        <h4 class="meals2">Cornballs</h4>
+                        <p class="description1">Balls of polenta and butter, seasoned to taste $5.36</p>
+                    </article>
+                    <article id="m2" class="meals">
+                        <h3 class="meals1">Appetizers</h3>
+                        <h4 class="meals2">Fried cheese with Club Sauce</h4>
+                        <p class="description1">Golden fried cheese with Club Sauce $6.79</p>
+                        <h4 class="meals2">Hot Ham Water</h4>
+                        <p class="description1">Canned ham boiled in water $5.26</p>
+                        <h4 class="meals2">Chicken Fingers with Club Sauce</h4>
+                        <p class="description1">Crispy chicken fingers with spicy Club sauce $5.99</p>
+                    </article>
+                    <article id="m3" class="meals">
+                        <h3 class="meals1" id="drinks">Beverages</h3>
+                        <h4 class="meals3">Juice Box <span class="description3">$.99</span></h4>
+                        <h4 class="meals3">Martini <span class="description3">$5.26</span></h4>
+                        <h4 class="meals3">Vodka <span class="description3">$7.65</span></h4>
+                    </article>
+                </article>
+                <article id="promotions">
+                <p id="promos">Join us for Happy Hour on Saturdays at 5pm!</p>
+                </article>
+
         </section>
 
+                <article id="reservations">
+                    <p class="description1">**Sorry, we do not take reservations. There's not enough room in the Banana Stand** </p>
+                </article>
     </main>
 
     <footer id="pageFooter">

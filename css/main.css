@@ -66,24 +66,17 @@ nav {
     height: auto;
     position: absolute;
     right: 2%;
-    top: 7%;
+    top: 2%;
     width: 22%;
 }
 
 header {
-    background-image: url(../img/bkgd.png);
+    background-image: url(../img/bkgd1.png);
+    /* background-repeat: repeat-y; */
     margin: auto;
     max-width: 100%;
     text-align: center;
 }
-
-/*#phrase1 {
-    color: #3d4868;
-    font-family: "canterBold";
-    font-size: 1.5em;
-    margin: auto;
-    width: 60%;
-}*/
 
 .phrase2 {
     color: #FAF7F0;
@@ -93,7 +86,6 @@ header {
 
 span.quote {
     color: #efad20;
-    font-family: "titaniaRegular";
     font-size: 1em;
 }
 
@@ -126,16 +118,151 @@ span.quote {
     z-index: 1;
 }
 
-/************************************** Crazy Banana Menu *********************************************/
+#navTitle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    padding-top: 20px;
+}
+
+.navItem {
+    font-size: 3.5em;
+}
+
+/************************************** DESSERTS Menu *********************************************/
+
+#mainMenu {
+    background-color: ;/*#f0c447*/
+    padding: 0 10px;
+}
 
 span.the {
-    color: #6b75ee;
+    color: #e76d70;
+    display: block;
     font-family: 'Dancing Script', cursive;
     /* font-family: 'Satisfy', cursive; */
     /* font-family: 'Dancing Script', cursive; */
-    font-size: 1em;
+    font-size: 1.1em;
+    text-align: center;
 }
 
+.bananaName {
+    color: #6b75ee;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Satisfy', cursive; */
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.description {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+p.description {
+    margin-top: -.5em
+}
+
+span.cost {
+    color: ;
+    font-size: ;
+}
+
+
+/************************************** ENTREES APPETIZERS and DRINKS Menu *********************************************/
+
+#menu {
+    color: #3d4868; /* #e76d70; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.3em;
+    text-align: center;
+}
+
+#bottomMenu {
+    /*background-color: #6b75ee;*/
+    padding: 0 10px;
+    text-align: center;
+}
+
+#drinks {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+.meals1 {
+    background-color: #3d4868;
+    color: #e76d70; /* #f0c447; */
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Satisfy', cursive; */
+    font-size: 1.8em;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.meals2 {
+    color: #6b75ee;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Satisfy', cursive; */
+    font-size: 1.3em;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.meals3 {
+    color: #6b75ee;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Satisfy', cursive; */
+    font-size: 1.2em;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.description3 {
+    color: #363636;
+    font-family: "canterLight";
+    font-size: 1em;
+    text-align: left;
+}
+
+#promos {
+    color: #e76d70;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Satisfy', cursive; */
+    font-size: 1.8em;
+    padding-top:;
+    text-align: center;
+}
+
+/********************************* MEDIA QUERIES ******************/
+
+@media all and (min-width: 500px) {
+.meals {
+    display: inline-block;
+    padding: 0 5px;
+    vertical-align: top;
+}
+.meals + .meals {
+    padding-left: 15px;
+}
+.description1 {
+    font-size: 1.4em;
+    padding-left: 20px;
+    text-align: left;
+}
+p.description1 {
+    margin-top: -.5em
+}
+}
+
+/************************************** RESERVATIONS Menu *********************************************/
+
+#reservations p {
+    color: #f0c447;
+    font-size: 2em;
+    padding-top: 1.3em;
+    text-align: center;
+}
+
+/************************************** FOOTER Menu *********************************************/
 
 footer {
     background: #3d4868;
@@ -166,6 +293,8 @@ footer {
     margin-bottom: -.5em;
 }
 
+/************************************** MEDIA QUERIES *************************************************/
+
 @media all and (min-width: 800px) {
 footer {
     text-align: right;
@@ -186,13 +315,13 @@ body {
     margin: auto;
     margin-bottom: 1%;
     margin-top: 1%;
-    max-width: 1200px;
+    max-width: 1300px;
 
     -moz-box-shadow:    0 0 2px 1px #D1D1D1;
     -webkit-box-shadow: 0 0 2px 1px #D1D1D1;
     box-shadow:         0 0 2px 1px #D1D1D1;
 }
-/************************ BEGINNING: First blue divider in coding *****************************/
+/****************** BEGINNING: First blue divider in coding ***********/
 #section1 {
     background-color: #3d4868;
     display: inline-block;
@@ -217,7 +346,7 @@ body {
 /************************ BEGINNING: First blue divider in coding *****************************/
 #award1 {
     right: 2%;
-    top: 8%;
+    top: 5%;
     width: 20%;
 }
 
