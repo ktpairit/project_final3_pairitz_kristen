@@ -13,11 +13,6 @@ font-family: 'Satisfy', cursive;
     src: url("canterLight.otf");
 }
 
-@font-face {
-    font-family: "titaniaRegular";
-    src: url("titaniaRegular.ttf");
-}
-
 body {
     background: #FAF7F0;
     /*background-image: url(../img/patternBkgd.png);*/
@@ -26,11 +21,12 @@ body {
 
 html {
     background-color: #FAF7F0;
-    /* background-image: url(../img/bkgdStripes.png); */
     box-sizing: border-box;
     color: #363636;
     font-size: 1.5em;
     font-weight: lighter;
+    background-image: url(../img/patternBkgd.png);
+    background-repeat: repeat;
 }
 
 *,
@@ -55,6 +51,19 @@ html {
     content: '';
     display: block;
     }
+
+/*
+#topLogo{
+    color: #c8c8d2;
+    font-family: "canterLight";
+    font-size: 2em;
+    font-weight: lighter;
+    position: fixed;
+    top: 1.5%;
+    right: 13%;
+    z-index: 200;
+}
+*/
 
 nav {
     background: #3d4868;
@@ -169,6 +178,10 @@ span.cost {
 
 
 /************************************** ENTREES APPETIZERS and DRINKS Menu *********************************************/
+/*#section2 {
+    background-image: url(../img/patternBkgd.png);
+    background-repeat: repeat;
+}*/
 
 #menu {
     color: #3d4868; /* #e76d70; */
@@ -229,6 +242,15 @@ span.cost {
     /* font-family: 'Satisfy', cursive; */
     font-size: 1.8em;
     padding-top:;
+    text-align: center;
+}
+
+.pics {
+    height: auto;
+    max-width: 300px;
+}
+
+#section3 {
     text-align: center;
 }
 
@@ -328,7 +350,7 @@ body {
     width: 100%;
 }
 .phrase2 {
-    font-size: 3.2em;
+    font-size: 3.3em;
 }
 .divider1 img {
     float: left;

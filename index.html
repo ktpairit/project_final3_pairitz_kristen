@@ -4,13 +4,10 @@
     <meta charset="utf-8">
     <title>Bluth's Original Frozen Banana</title>
     <meta name="description" content="Bluth's Original Frozen Banana Desserts">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Satisfy" rel="stylesheet" type="text/css">
-
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -22,13 +19,16 @@
 <link rel="stylesheet" href="css/drawer.css">
 <!------------------ ** jQuery Drawer.css ** ------------>
 
-<!---- <link href="css/demo.css" rel="stylesheet" type="text/css"> ------>
-
+<!------------------ ** jQuery SimpleTextRotator.css ** ------------>
+<link rel="stylesheet" href="simpletextrotator.css">
+<!------------------ ** jQuery SimpleTextRotator.css ** ------------>
 
 </head>
 <!----------------------------jQuery plugins: Animsition AND Drawer are below  ------------------------------------------>
 <body class="animsition">
+
 <header>
+    <!---- <h2 id="topLogo">"Sweet and Natural"</h2> ------>
     <nav role="banner" class="drawer drawer--left">
         <button type="button" class="drawer-toggle drawer-hamburger">
             <span class="sr-only">toggle navigation</span>
@@ -57,9 +57,9 @@
     <main role="main">
         <section id="section1" class="group section">
             <h2 class="visuallyHidden">Company Information</h2>
-                <article class="divider1">
-                    <p class="phrase2"><span class="quote">"</span>There's Always Money in the Banana Stand!<span class="quote">"</span></p>
-                </article>
+                <div class="divider1">
+                    <p class="phrase2"><span class="quote">"</span><span class="rotate">There's Always Money in the Banana Stand!,I burned it. Right down to the ground.</span><span class="quote">"</span></p>
+                </div>
                 <div class="divider1">
                     <img src="img/divider.png" alt="">
                 </div>
@@ -80,37 +80,42 @@
                         <p class="description">Frozen dipped Bananas sandwhiched between chocolate grahams <span class="cost"> .......$1.25</span></p>
                     </div>
                 </article>
-
                 <article id="bottomMenu">
-                    <article id="m1" class="meals">
-                        <h3 class="meals1">Entrees</h3>
-                        <h4 class="meals2">Poisoned Muffins</h4>
-                        <p class="description1">Creamy bananas with the spicy heat of green curry paste $5.26</p>
-                        <h4 class="meals2">Mayonegg</h4>
-                        <p class="description1">One boiled egg preceded by a packet of mayonnaise $4.29</p>
-                        <h4 class="meals2">Cornballs</h4>
-                        <p class="description1">Balls of polenta and butter, seasoned to taste $5.36</p>
-                    </article>
-                    <article id="m2" class="meals">
-                        <h3 class="meals1">Appetizers</h3>
-                        <h4 class="meals2">Fried cheese with Club Sauce</h4>
-                        <p class="description1">Golden fried cheese with Club Sauce $6.79</p>
-                        <h4 class="meals2">Hot Ham Water</h4>
-                        <p class="description1">Canned ham boiled in water $5.26</p>
-                        <h4 class="meals2">Chicken Fingers with Club Sauce</h4>
-                        <p class="description1">Crispy chicken fingers with spicy Club sauce $5.99</p>
-                    </article>
-                    <article id="m3" class="meals">
-                        <h3 class="meals1" id="drinks">Beverages</h3>
-                        <h4 class="meals3">Juice Box <span class="description3">$.99</span></h4>
-                        <h4 class="meals3">Martini <span class="description3">$5.26</span></h4>
-                        <h4 class="meals3">Vodka <span class="description3">$7.65</span></h4>
-                    </article>
+                <article id="m1" class="meals">
+                    <h3 class="meals1">Entrees</h3>
+                    <h4 class="meals2">Poisoned Muffins</h4>
+                    <p class="description1">Creamy bananas with the spicy heat of green curry paste $5.26</p>
+                    <h4 class="meals2">Mayonegg</h4>
+                    <p class="description1">One boiled egg preceded by a packet of mayonnaise $4.29</p>
+                    <h4 class="meals2">Cornballs</h4>
+                    <p class="description1">Balls of polenta and butter, seasoned to taste $5.36</p>
+                </article>
+                <article id="m2" class="meals">
+                    <h3 class="meals1">Appetizers</h3>
+                    <h4 class="meals2">Fried cheese with Club Sauce</h4>
+                    <p class="description1">Golden fried cheese with Club Sauce $6.79</p>
+                    <h4 class="meals2">Hot Ham Water</h4>
+                    <p class="description1">Canned ham boiled in water $5.26</p>
+                    <h4 class="meals2">Chicken Fingers with Club Sauce</h4>
+                    <p class="description1">Crispy chicken fingers with spicy Club sauce $5.99</p>
+                </article>
+                <article id="m3" class="meals">
+                    <h3 class="meals1" id="drinks">Beverages</h3>
+                    <h4 class="meals3">Juice Box <span class="description3">$.99</span></h4>
+                    <h4 class="meals3">Martini <span class="description3">$5.26</span></h4>
+                    <h4 class="meals3">Vodka <span class="description3">$7.65</span></h4>
+                </article>
                 </article>
                 <article id="promotions">
-                <p id="promos">Join us for Happy Hour on Saturdays at 5pm!</p>
+                <p id="promos">Join us for <span class="rotat">Happy Hour</span> on Saturdays at 5pm!</p>
                 </article>
-
+        </section>
+        <section id="section3" class="group">
+            <h2 id="pic" class="visuallyHidden">Tasty Images</h2>
+            <img src="img/george.png" alt="" class="pics"/>
+            <img src="img/gogo.png" alt="" class="pics"/>
+            <img src="img/gob.png" alt="" class="pics"/>
+            <img src="img/good.png" alt="" class="pics"/>
         </section>
 
                 <article id="reservations">
@@ -118,7 +123,7 @@
                 </article>
     </main>
 
-    <footer id="pageFooter">
+    <footer>
         <article class="companyInfo">
             <h3 class="companyInfoFont1">Location</h3>
             <address>
@@ -150,6 +155,7 @@
     <script src="js/animsition.min.js"></script>
     <script src="js/drawer.min.js"></script>
     <script src="js/iscroll.js"></script>
+    <script src="js/jquery.simple-text-rotator.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
