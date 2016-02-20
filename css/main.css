@@ -91,6 +91,8 @@ header {
     color: #FAF7F0;
     font-family: "canterBold";
     font-size: 2.6em;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 span.quote {
@@ -233,6 +235,7 @@ span.cost {
     color: #363636;
     font-family: "canterLight";
     font-size: 1em;
+    font-weight: lighter;
     text-align: left;
 }
 
@@ -307,11 +310,14 @@ footer {
 }
 
 .companyInfoFont3 {
+    font-weight: lighter;
     list-style: none;
     padding-left: 0;
 }
 
 .companyInfoFont1 {
+    font-size: 1.5em;
+    font-weight: lighter;
     margin-bottom: -.5em;
 }
 
